@@ -168,7 +168,7 @@ The frontend communicates with the Express.js backend through API requests. The 
 Add a screenshot of the application here:
 
 ```bash
-![Simple Student Management System](screenshots/student_management_system.jpg)
+![Simple_Student_Management_System](screenshots/student_management_system.jpg)
 ```
 
 ## Purpose of the Project
