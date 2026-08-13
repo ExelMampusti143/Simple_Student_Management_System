@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Student Basic CRUD</title>
+</head>
+<body>
+
+  <div class="container">
+    <center><h1>Students Management System</h1></center>
+
+    <!-- Form para magdagdag / mag-edit ng student -->
+    <center><form id="studentForm">
+      <input type="hidden" id="studentId"> <!-- para sa edit -->
+
+      <div class="form-group">
+        <input type="text" id="name" placeholder="Full Name" required>
+      </div>
+
+      <div class="form-group">
+        <input type="text" id="course" placeholder="Course (e.g. BSIT)" required>
+      </div>
+
+      <div class="form-group">
+        <input type="number" id="year" placeholder="Year Level" min="1" max="5" required>
+      </div>
+
+      <div class="form-group">
+        <input type="email" id="email" placeholder="Email Address" required>
+      </div>
+
+      <button type="submit" id="submitBtn">Add Student</button>
+      <button type="button" id="cancelBtn" placeholder="hidden">Cancel</button>
+    </form></center>
+
+    <!-- Table ng Students -->
+    <div class="table-container">
+        <table id="studentsTable">
+            <thead>
+                <tr>
+                <th>Name</th>
+                <th>Course</th>
+                <th>Year</th>
+                <th>Email</th>
+                <th>Actions</th>
+                </tr>
+            </thead>
+          <tbody id="studentTableBody">
+          <!-- Dito ilalagay ng JavaScript ang mga rows -->
+          </tbody>
+      </table>
+    </div>
+  </div>
+</body>
+</html>
