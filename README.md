@@ -168,7 +168,7 @@ The frontend communicates with the Express.js backend through API requests. The 
 Add a screenshot of the application here:
 
 ```markdown
-![Simple Student Management System](screenshots/student_management_system.png)
+<image-card alt="Simple Student Management System" src="https://raw.githubusercontent.com/ExelMampusti143/Simple_Student_Management_System/main/screenshot/student-management-system.png" ></image-card>
 ```
 
 ## Purpose of the Project
